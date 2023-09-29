@@ -7,6 +7,7 @@ import {
 import Counter from '../Counter/Counter';
 import Modal from '../Modal/Modal';
 import Quiz from '../Quiz/Quiz';
+import Users from '../Users/Users';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/counter" element={<Counter/>} />
           <Route path="/modal" element={<Modal/>} />
           <Route path="/quiz" element={<Quiz/>} />
+          <Route path="/users" element={<Users/>} />
       </Routes>
     </div>
   );
